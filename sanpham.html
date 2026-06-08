@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/index1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form action="" id="login" class="p-4">
+    <div class="x">
+        x
+    </div>
+    <div class="row text-center">
+        <h2>Đăng Nhập</h2>
+    </div>
+    <label for="">Tài khoản</label>
+    <input type="text" style="width: 100%;">
+
+    <label for="">Password</label>
+    <input type="password" style="width: 100%;">
+    <div class="row text-center mt-3">
+        <div class="div"> <button style="width: 150px;" class="btn btn-dark">Đăng Nhập</button></div>
+    </div>
+</form>
+
+<header>
+  <div class="row frame-header">
+    <div class="row">
+      <div class="col-md-4 cch text-center">
+        HOTLINE: 0903456781
+      </div>
+
+      <div class="col-md-4 cch text-center">
+        LIÊN HỆ
+      </div>
+
+      <div class="col-md-4 cch text-center d-flex justify-content-center align-items-center gap-4">
+
+        <div id="btn-cart" class="header-btn">
+          <i class="fa-solid fa-cart-shopping"></i> GIỎ HÀNG
+        </div>
+
+        <div id="btn-login" class="header-btn">
+          <i class="fa-solid fa-user"></i> ĐĂNG NHẬP
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo.PNG" alt=""
+              style="width:80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-black" href="index.html">Trang Chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="sanpham.html">Sản Phẩm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="gioithieu.html">Giới Thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="tintuc.html">Tin Tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="giohang.html">Giỏ Hàng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="thongbao.html">Thông Báo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="thanhtoan.html">Thanh Toán</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="lienhe.html">Liên Hệ</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <style>
+        body {
+            background: #f5f5f5;
+        }
+
+        .title {
+            text-align: center;
+            margin: 30px;
+            font-weight: bold;
+        }
+
+        .card {
+            transition: 0.4s;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .price {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .btn-buy {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+ 
+
+    <h2 class="title">
+        DANH SÁCH XE MÁY
+    </h2>
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- xe 1 -->
+            <div class="col-md-3">
+
+                <div class="card">
+
+                    <img src="img/5.jpg"
+                        class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5>Honda Vario 125</h5>
+
+                        <p>Xe tay ga thể thao hiện đại.</p>
+
+                        <p class="price">
+                            45.000.000 VNĐ
+                        </p>
+
+                        <button class="btn btn-danger btn-buy">
+                            Xem Chi Tiết
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- xe 2 -->
+            <div class="col-md-3">
+
+                <div class="card">
+
+                    <img src="img/12.jpg">
+
+                    <div class="card-body">
+
+                        <h5>Yamaha Exciter 155</h5>
+
+                        <p>Thiết kế mạnh mẽ thể thao.</p>
+
+                        <p class="price">
+                            52.000.000 VNĐ
+                        </p>
+
+                        <button class="btn btn-danger btn-buy">
+                          Xem Chi Tiết
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- xe 3 -->
+
+            <div class="col-md-3">
+
+                <div class="card">
+
+                    <img src="img/11.jpg">
+
+                    <div class="card-body">
+
+                        <h5>Honda Future 125</h5>
+
+                        <p>Phong cách trẻ trung hiện đại.</p>
+
+                        <p class="price">
+                            57.000.000 VNĐ
+                        </p>
+
+                        <button class="btn btn-danger btn-buy">
+                          Xem Chi Tiết
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- xe 4 -->
+
+            <div class="col-md-3">
+
+                <div class="card">
+
+                    <img src="img/4.jpg">
+
+                    <div class="card-body">
+
+                        <h5>Honda SH160i</h5>
+
+                        <p>Dòng xe cao cấp sang trọng.</p>
+
+                        <p class="price">
+                            92.000.000 VNĐ
+                        </p>
+
+                        <button class="btn btn-danger btn-buy">
+                          Xem Chi Tiết
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-light mt-3">
+        <div class="footer-container">
+    
+    
+          <div class="footer-col">
+            <h2>XE MÁY DANHDANH</h2>
+            <p>
+              Hệ thống cửa hàng bán xe chính hãng,
+              giá tốt nhất thị trường. Cam kết chất lượng
+              và dịch vụ hàng đầu.
+            </p>
+        </div>
+    
+    
+          <div class="footer-col">
+            <h4>Liên kết nhanh</h4>
+            <ul>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Sản phẩm</a></li>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Tin tức</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+    
+    
+          <div class="footer-col">
+            <h4>Liên hệ</h4>
+            <p><i class="fa-solid fa-location-dot"></i> TP.HCM</p>
+            <p><i class="fa-solid fa-phone"></i> 1900 9999</p>
+            <p><i class="fa-solid fa-envelope"></i> techzone@gmail.com</p>
+    
+            <div class="social">
+              <a href="https://www.facebook.com/share/1AgrMuUcRa/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.google.com/maps?q=Trường+Cao+đẳng+Kinh+tế+-+Kỹ+thuật+TP.HCM"><i
+                  class="fa-solid fa-location-dot"></i></a>
+              <a href="https://zalo.me/84772999036"><i class="fa-brands fa-youtube"></i></a>
+              <a href="tel:+84902370650"><i class="fa-solid fa-phone"></i></a>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="footer-bottom">
+          vohongdanh@gmail.com. All rights reserved.
+        </div>
+      </footer>
+
+      <script>
+        $(document).ready(function () {
+          $(".frame-danhmuc > ul > li > ul").hide();
+          $(".frame-danhmuc > ul >li").click(function () {
+            $(this).children("ul").slideToggle();
+          })
+            $("#login").hide();
+    
+            $("#btn-login").click(function (){
+              $("#login").toggle();
+            })
+            $(".x").click(function () {
+              $("#login").hide();
+            })
+        })
+      </script>
+</body>
+
+</html>
